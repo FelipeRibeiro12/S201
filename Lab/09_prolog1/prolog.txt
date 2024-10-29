@@ -1,0 +1,14 @@
+resolvido em aula
+
+1.a) resultado(joao, X).
+
+b) falta(X, Y), Y > 0.
+
+c) reprovado(jose).
+
+2. aprovado(X) :-
+    resultado(X, Nota),
+    falta(X, F),
+    (Nota > 6 ; F < 2).
+
+    aprovado(X).
